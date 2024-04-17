@@ -4,4 +4,5 @@ var sum = 0;
 for(var number = 0; number < numbers.length; number++ ){
     sum += number
 }
+
 console.log('The sum is', sum);
