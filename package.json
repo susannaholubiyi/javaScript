@@ -1,5 +1,24 @@
 {
   "dependencies": {
+    "jest": "^29.7.0",
     "prompt-sync": "^4.2.0"
-  }
+  },
+  "name": "introduction",
+  "description": "",
+  "version": "1.0.0",
+  "main": "arrayMethods.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/susannaholubiyi/javaScript.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/susannaholubiyi/javaScript/issues"
+  },
+  "homepage": "https://github.com/susannaholubiyi/javaScript#readme"
 }

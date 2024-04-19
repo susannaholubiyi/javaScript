@@ -18,3 +18,4 @@ for(const key in user){
 for(const value of arr){
     console.log(value);
 }
+
