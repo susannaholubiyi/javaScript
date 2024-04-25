@@ -34,4 +34,30 @@ console.log(fork)
 console.log(spoon);
 
 
-let
+let vehicles = {wheels: 4};
+let car = {
+        seat: 5,
+        __proto__ : vehicles,
+        wheels : 6,
+};
+
+// console.log(`vehicles:`, vehicles, vehicles.__proto__);
+console.log(`car`, car, car.__proto__);
+// console.log(`car wheels:`, car.wheels)
+
+//constructor function are written in pascal casing
+function Person(name, age){
+    this.name = name;
+    this.age = age;
+
+    this.sayName = function(){
+        console.log(this.name);
+    }
+}
+
+const personOne = new Person("Jumoke", 13);
+console.log(personOne.name)
+
+const personTwo = new Person("Pastor", 20);
+personTwo.sayName();
+console.log(personTwo.name)
